@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Flexbox: task 1</title>
+
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      .parent {
+        border: 2px solid #77a6b6;
+        border-radius: 0.5em;
+        width: 400px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .child {
+        background-color: #4d7298;
+        color: #fff;
+        padding: 0.5em;
+        width: 150px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Flex Layout Three</h1>
+    <p>
+      There are two elements in the HTML below, a div with a class of .parent
+      which contains another div with a class of .child. Use Flexbox to center
+      the child inside the parent.
+    </p>
+    <img src="flex-task3.png" alt="flex3" />
+    <hr />
+
+    <section>
+      <div class="parent">
+        <div class="child">Center me.</div>
+      </div>
+    </section>
+  </body>
+</html>

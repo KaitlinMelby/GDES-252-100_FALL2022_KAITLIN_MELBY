@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Flexbox: task 1</title>
+
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      nav ul {
+        max-width: 700px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      nav a:link,
+      nav a:visited {
+        background-color: #4d7298;
+        border: 2px solid #77a6b6;
+        border-radius: 0.5em;
+        color: #fff;
+        padding: 0.5em;
+        display: inline-block;
+        text-decoration: none;
+      }
+
+      nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Flex Layout One</h1>
+    <p>
+      These list items are the navigation for a site. They should be laid out as
+      a row, with an equal amount of space between each item. The finished
+      example should look like the image below.
+    </p>
+    <img src="flex-task1.png" alt="flex1" />
+    <hr />
+
+    <section>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/products">Our Products</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+body {
+    margin: auto;
+    
+}
+
+header {
+    
+    background-image: url(images/wes-wilson-header.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.wes-wilson {
+    padding-left: 1em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    font-family: 'Bungee Inline', cursive;
+    font-size: larger;
+}
+
+@media screen and (max-width: 992px)
+{
+    .wes-wilson {
+        font-size: smaller
+
+}
+
+
+
+}
